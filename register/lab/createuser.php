@@ -5,7 +5,7 @@ $data = [
     "last" => $_GET["last"],
     "department" => $_GET["department"]
 ];
-        $ch = curl_init("http://lab.icraftsoft.net:6060/users");                                                                      
+        $ch = curl_init("http://lab.icraftsoft.net:6060/users/");                                                                      
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST"); 
 		curl_setopt($ch, CURLOPT_FAILONERROR, true);                                                                    
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));                                                                  
