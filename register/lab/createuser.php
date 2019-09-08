@@ -16,5 +16,5 @@ $data = [
 		 
 		$result = curl_exec($ch);
 		return $result;
-?>
+
 ?>
