@@ -1,0 +1,31 @@
+.container{
+  		background: #F9F6F8;
+  		 box-shadow: 2px 2px 2px grey;
+  		/*padding-top: 50em;*/
+
+  	}
+  	.grid-container {
+ 
+  
+  padding: 50px;
+}
+.mycontainer{
+  background: #F9F6F8;
+}
+ .modal-footer {
+display: table;
+width: 100%;
+
+}
+
+.wrapper-div {
+    display: table-cell;
+  vertical-align: middle
+}
+button{
+  height: 40px;
+}
+
+.ancher{
+	color: white;
+}
